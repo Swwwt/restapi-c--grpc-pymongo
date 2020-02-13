@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{61390DF8-85D9-4F3F-83E5-A1657F7C26E8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Myapps.cs">
+    <Files>
+      <File FileName="Myapps.cs" Line="9" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="business-service" expanded="True">
+            <Node name="business-service" expanded="True">
+              <Node name="Myapps.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.business-service PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

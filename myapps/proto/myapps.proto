@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+service DataService {
+    rpc CreateApplication(Application) returns (Application) {}
+    rpc GetApplication(Application) returns (Application) {}
+    rpc GetUser(User) returns (User) {}
+    rpc DeleteApplication(Application) returns (Application) {}
+}
+
+message Application {
+    int32 id = 1;
+    string name = 2;
+    string description = 3;
+    string date = 4;
+    string creator = 5;
+}
+
+message User {
+  enum Gender {
+    FEMALE = 0;
+    MALE = 1; 
+  }
+
+  int32 id = 1;
+  string name = 2;
+  int32 age = 3;
+  Gender gender = 4;
+}
+
+// python -m grpc_tools.protoc -I./proto --python_out=. --grpc_python_out=. ./proto/myapps.proto
